@@ -3,7 +3,7 @@ Predicting whether the tumor is Malignant or Benign using Machine Learning on th
 
 ### Summary
 
-> National Breast Cancer Foundation estimates that 1 in 8 women in the U.S. will develop breast cancer in her lifetime. For fine-needle aspiration biopsy(FNAB), the pathology report alone could take up to 2 weeks, with an accuracy of about 80% [1,2] (https://github.com/floraxinru/breast_cancer_classification/blob/master/README.md#references). 
+> National Breast Cancer Foundation estimates that 1 in 8 women in the U.S. will develop breast cancer in her lifetime. For fine-needle aspiration biopsy(FNAB), the pathology report alone could take up to 2 weeks, with an accuracy of about 80% [1,2](https://github.com/floraxinru/breast_cancer_classification/blob/master/README.md#references). 
 
 For this 2.5-week project, I trained and compared 9 classification models to predict breast cancer using features already calcuated from biopsy images. The objective is to investigate whether it is possible to improve the accuracy and speed of the diagnosis using machine learning.
 
