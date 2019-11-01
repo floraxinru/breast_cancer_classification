@@ -1,2 +1,2 @@
 # breast_cancer_classification
-Classification and interactive dashboards project - predicting whether the cancer is benign or malignant using the UCI-Wisconsin data set
+Predicting whether the tumor is malignant or benign using Machine Learning on the UCI-Wisconsin data set
