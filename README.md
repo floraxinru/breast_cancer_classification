@@ -10,7 +10,7 @@ For this 2.5-week project, I trained and compared 9 classification models to pre
 My prediction results were very good (AUC ~ 0.99 for top 4 models, compared to human accuracy of 77.5%), and the natural next step would be to expand the problem to include image classification on biopsy images, and calculating the features before performing classification using the best model I trained. 
 
 ### *Tools*
-Python, Pandas, NumPy, scikit-Learn, matplotlib, seaborn
+Python, Pandas, NumPy, scikit-learn, matplotlib, seaborn
 
 ### Design
 Learning from previous projects, I deliberately cut down on project design and data collection time for this project, and narrowed down the scope, in order to perform a more thorough analysis on the results, and spend time building a data story.
