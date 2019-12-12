@@ -32,7 +32,10 @@ The dataset has 33 features, 569 observations. My target feature for classificat
 
 ### Results
 The prediction results were very good. I showcase the results in the confusion matrices below:
-![normalized confusion matrix](cm_LR_poster_norm_no_rotation.png)
+
+<a href="url">
+ <img src="cm_LR_poster_norm_no_rotation.png" height="300" width="400" ></a>
+
 
 For malignant tumors which are the true positives and the most important category for prediction, the accuracy is 0.95 out of 1, or 95% (compared to the average human accuracy of ~80% for this biopsy technique).
 
