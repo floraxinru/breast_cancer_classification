@@ -10,7 +10,7 @@ For this 2.5-week project, I trained and compared 9 classification models to pre
 My prediction results were very good (AUC ~ 0.99 for top 4 models, compared to human accuracy of 77.5%), and the natural next step would be to expand the problem to include image classification on biopsy images, and calculating the features before performing classification using the best model I trained. 
 
 ### *Tools*
-Python, Pandas, NumPy, scikit-learn, matplotlib, seaborn
+Python, Pandas, NumPy, scikit-learn, matplotlib, Seaborn
 
 ### Design
 Learning from previous projects, I deliberately cut down on project design and data collection time for this project, and narrowed down the scope, in order to perform a more thorough analysis on the results, and spend time building a data story.
@@ -31,9 +31,13 @@ The dataset has 33 features, 569 observations. My target feature for classificat
 
 
 ### Results
+The prediction results were very good. I showcase the results in the confusion matrices below:
+![normalized confusion matrix](cm_LR_poster_norm.pdf)
+
+For malignant tumors which are the true positives and the most important category for prediction, the accuracy is 0.95 out of 1, or 95% (compared to the average human accuracy of ~80% for this biopsy technique).
 
 ### Future Work
-To continue working on this and expand it to include image classification, I would first look into the papers that cited this dataset (linked on the UCI data source), to see what image data they used. I would also check those papers to see if there are now more advanced models used to calculate these features from biopsy images, before trying to repeat the calculation to get geometric features similar to the ones I used in this dataset.
+To continue working on this and expand it to include image classification, in order to build a "biopsy to diagnosis" pipeline to improve efficiency, I would first look into the papers that cited this dataset (linked on the UCI data source), to see what image data they used. I would also check those papers to see if there are now more advanced models used to calculate these features from biopsy images, before trying to repeat the calculation to get geometric features similar to the ones I used in this dataset.
 
 ### References
 1. https://www.nationalbreastcancer.org/breast-cancer-biopsy
